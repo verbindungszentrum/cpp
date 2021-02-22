@@ -8,5 +8,4 @@ add_executable(cpluspluProj main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-set(CMAKE_INSTALL_PREFIX path/to/directory)
 include(CPack)
